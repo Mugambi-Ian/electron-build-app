@@ -17,16 +17,13 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder --win --ia32"
+    "dist-windows": "electron-builder --win --ia32",
+    "dist-linux": "electron-builder --linux"
   },
   "author": "Ian Mugambi",
   "license": "CC0-1.0",
   "devDependencies": {
-<<<<<<< HEAD
     "electron": "^11.1.1",
     "electron-builder": "latest"
-=======
-    "electron": "^11.2.0"
->>>>>>> 6549dfd265fdfe3f6a54fc4ad863be5d74d6209c
   }
 }
